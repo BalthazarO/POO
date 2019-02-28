@@ -3,13 +3,8 @@
 
         public $convertisseur;
 
-        public function __construct($nomDevise, $valeur) {
-            $this->nomDevise = $nomDevise;
+        public function __construct($valeur) {
             $this->valeur = $valeur;
-        }
-
-        public function nomDeDevise(){
-            return $this-> $nomDevise;
         }
 
         public function valeur(){
